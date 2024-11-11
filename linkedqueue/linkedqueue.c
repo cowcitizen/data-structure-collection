@@ -40,8 +40,8 @@ element dequeue(Queue* q){
 
 	element tmp = q->front->data;
 	Node* ptmp = q->front->link;
-	free(q->front); // 메모리가 여유롭다면 생략 가능.
-	q->front = ptmp; // NULL이면 알맞은 처리를 해주지 않는구나
+	free(q->front);
+	q->front = ptmp;
 	if(q->front == NULL){ q->rear = NULL; }
 
 	return tmp;
