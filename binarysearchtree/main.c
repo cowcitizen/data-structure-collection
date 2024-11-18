@@ -67,7 +67,7 @@ int main(void){
 					printf("Excellent!!!\n");
 					break;
 				}
-			case 'Q':
+			case 'Q': // Intentional: `Q` quits without prompting the user.
 				return 0; // quit out of the program...
 				break;
 			default:
