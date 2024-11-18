@@ -1,6 +1,6 @@
 # data-structure-collection
 The collection of codes from the subject "Data Structures."  
-The lecture covered basic data structures, such as...  
+The lecture covered basic data structures and its applications and variants, such as...  
 * Linked lists
     * Singly linked list
     * Circular linked list
