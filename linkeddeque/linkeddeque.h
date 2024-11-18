@@ -2,7 +2,10 @@
  * Linked deque: Double-ended queue implemented using a doubly linked list.
  *
  * Some implementations for doubly linked lists seem to use the head node instead of two pointers;
- * I decided to use two pointers because it does the job without problem. 
+ * I decided to use two pointers because it does the job without problem.
+ * 
+ * `insert` and `delete` seems like the more common names for `enqueue` and `dequeue`...
+ * I might change the name someday.
 */
 
 #ifndef _LINKEDDEQUE_H

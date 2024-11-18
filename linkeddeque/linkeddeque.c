@@ -52,9 +52,13 @@ element delete_front(Deque* q){
 	}
 	element tmp = q->front->data;
 	Node* deleted = q->front;
-
-	q->front->rlink->llink = NULL;
-	q->front = q->front->rlink;
+	if(q->front == q->rear){
+		q->front = NULL;
+		q->rear = NULL;
+	} else {
+		q->front->rlink->llink = NULL;
+		q->front = q->front->rlink;
+	}
 	free(deleted);
 	return tmp;
 }
@@ -67,8 +71,13 @@ element delete_rear(Deque* q){
 	element tmp = q->rear->data;
 	Node* deleted = q->rear;
 
-	q->rear->llink->rlink = NULL;
-	q->rear = q->rear->llink;
+	if(q->front == q->rear){
+		q->front = NULL;
+		q->rear = NULL;
+	} else {
+		q->rear->llink->rlink = NULL;
+		q->rear = q->rear->llink;
+	}
 	free(deleted);
 	return tmp;
 }
@@ -87,4 +96,8 @@ element peek_rear(Deque* q){
 		exit(3);
 	}
 	return q->rear->data;
+}
+
+int is_empty(Deque* q){
+	return (q->front == NULL && q->rear == NULL)? 1 : 0;
 }
