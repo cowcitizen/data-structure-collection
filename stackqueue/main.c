@@ -1,10 +1,11 @@
-/* Testing program for linked queue. */
+/* Testing program for circular queue. */
 
-#include "linkedqueue.h"
+#include<stdio.h>
+#include "circularqueue.h"
 
 int main(void){
-	Queue linkedqueue;
-	Queue* q = &linkedqueue;
+	Queue circularqueue;
+	Queue* q = &circularqueue;
 	init_queue(q);
 	printf("`e` to enqueue, `d` to dequeue, `p` to peek, `q` to quit, `?` or `h` for help.\n");
 
