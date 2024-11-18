@@ -11,4 +11,7 @@ The lecture covered basic data structures, such as...
     * Circular queue
     * Double-ended queue (deque)
 * Binary tree
-* Graph
+* Priority queue (heap)
+* Graphs (Implementation using an adjacent matrix or an adjacent list)
+     * Undirected graph
+     * Directed graph
