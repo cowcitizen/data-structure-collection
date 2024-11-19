@@ -12,12 +12,7 @@ int main(void){
 	TreeNode* index;
 	TreeNode* tree = NULL;
 
-	// 아... 트리가 비어있을 때 처리를 어떻게 해야 할지 생각나지 않는다.......
-	// 처음부터 다시 짜야 할지도 모르겠음. ㅋㅋㅋㅋ ㅋ   ㅋ  ㅋㅋ ㅋㅋ ㅋ  ㅋ ㅋㅋ
-	// insert()의 반환형을 TreeNode* 로 한다면 어찌어찌 할 수는 있어보이는데... 근데 피곤함. 이따가 해야지~! ^^
-
-	// 그러니까... 시마도 너무 대충대충 살아가는 건 좋지 못한 일이고.......
-	// 그건 미츠미에게나 그렇겠지.
+	// TODO 트리가 비어있을 때 특수한 처리가 필요하지 않도록 수정해보자....
 
 	printf("`f` to find, `i` to insert, `r` to remove, `p` to print, `q` to quit, `h` or `?` for more.\n");
 	while(1){

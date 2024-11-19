@@ -19,7 +19,7 @@ TreeNode* find_parent(TreeNode*, TreeNode*);
 // Make a node from the specified element, and insert it under the specified node (if applicable)
 TreeNode* tinsert(TreeNode*, element);
 
-// Find a node with the specified element from the specified tree, and remove it from the tree.Does nothing on failure.
+// Find a node with the specified element from the specified tree, and remove it from the tree. Does nothing on failure.
 TreeNode* tremove(TreeNode*, element);
 
 // Count the number of nodes.
