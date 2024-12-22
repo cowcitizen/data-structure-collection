@@ -15,3 +15,17 @@ The lecture covered basic data structures and its applications and variants, suc
 * Graphs (Implementation using an adjacent matrix or an adjacent list)
      * Undirected graph
      * Directed graph
+* Search  
+     * Linear search
+     * Binary search
+     * Interpolation search
+     * Hashing
+* Sorting  
+     * Insertion sort
+     * Selection sort
+     * Bubble sort
+     * Shell sort
+     * Merge sort
+     * Quick sort
+     * Heap sort
+     * Radix sort
